@@ -16,6 +16,11 @@
 
     <properties>
         <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
+        <jaxb.version>2.3.8</jaxb.version>
+        <mvn.compiler.source>${java.version}</mvn.compiler.source>
+        <mvn.compiler.target>${java.version}</mvn.compiler.target>
     </properties>
 
     <dependencies>
